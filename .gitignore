@@ -32,5 +32,6 @@ hs_err_pid*
 /tmp
 tmp.json
 
-./idea
+.idea
+*.iml
 

@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53f409ce-5db3-4054-9ca8-0c53394a9e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hadoop-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop-demo/src/main/java/com/zhq/TopN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop-demo/src/main/java/com/zhq/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop-demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-demo/src/main/java/com/zhq/TopN.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-demo/src/main/java/com/zhq/TopN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +47,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\IDEA\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.3\conf\aliyun\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GB2312" />
   </component>
   <component name="ProjectId" id="1jX7sGKo6Pjq3cRHrhWolSKQLfc" />
   <component name="ProjectLevelVcsManager">
@@ -64,9 +66,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GIT_ZHQ\bigdata-all-learn-demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TopN">
+    <configuration name="TopN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhq.TopN" />
+      <module name="hadoop-demo" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhq.WordCount" />
       <module name="hadoop-demo" />
@@ -81,8 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TopN" />
+      <item itemvalue="Application.WordCount" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopN" />
         <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
@@ -111,38 +137,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604128180150">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604369033169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604128180150" />
-    <state width="1877" height="366" key="GridCell.Tab.0.bottom" timestamp="1604127879032">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604369033169" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604129167852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604127879032" />
-    <state width="1877" height="366" key="GridCell.Tab.0.center" timestamp="1604127879032">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604129167852" />
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom" timestamp="1604588353505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="366" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604127879032" />
-    <state width="1877" height="366" key="GridCell.Tab.0.left" timestamp="1604127879032">
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604588353505" />
+    <state width="1877" height="501" key="GridCell.Tab.0.center" timestamp="1604588353505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="366" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604127879032" />
-    <state width="1877" height="366" key="GridCell.Tab.0.right" timestamp="1604127879032">
+    <state width="1877" height="501" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604588353505" />
+    <state width="1877" height="501" key="GridCell.Tab.0.left" timestamp="1604588353505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="366" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604127879032" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1604023186650">
+    <state width="1877" height="501" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604588353505" />
+    <state width="1877" height="501" key="GridCell.Tab.0.right" timestamp="1604588353505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604023186650" />
+    <state width="1877" height="501" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604588353505" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1604129169695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604129169695" />
     <state x="435" y="256" width="1050" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604127905701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="435" y="256" width="1050" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1604127905701" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604113476927">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604369279001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604113476927" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604369279001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

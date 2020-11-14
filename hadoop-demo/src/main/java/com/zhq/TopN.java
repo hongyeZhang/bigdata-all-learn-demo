@@ -9,6 +9,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.log4j.BasicConfigurator;
 
 import java.io.IOException;
 import java.util.SortedSet;
@@ -50,13 +51,13 @@ public class TopN {
     }
 
     public static void main(String[] args) throws Exception {
+        BasicConfigurator.configure();
         Configuration conf = new Configuration();
-        conf.setInt("TopN", 10);
-        // conf.set("mapreduce.app-submission.cross-platform", "true");
+        conf.setInt("TopN", 5);
         // Windows上开发必须配置hadoop.home.dir
-        System.setProperty("hadoop.home.dir", "D:/Develop/Hadoop-2.8.5");
+        System.setProperty("hadoop.home.dir", "D:/hadoop/hadoop-3.1.4");
         // 必须加载hadoop.dll动态链接库
-        System.load("D:/Develop/Hadoop-2.8.5/bin/hadoop.dll");
+        System.load("D:/hadoop/hadoop-3.1.4/bin/hadoop.dll");
         Job job = Job.getInstance(conf, "TopN");
         job.setJarByClass(TopN.class);
         job.setMapperClass(CustomMap.class);
@@ -64,8 +65,8 @@ public class TopN {
         job.setReducerClass(CustomReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
-        String args_0 = "hdfs://master:9000/home/topn.txt";
-        String args_1 = "hdfs://master:9000/out/topn/";
+        String args_0 = "hdfs://master:9000/input/topn.txt";
+        String args_1 = "hdfs://master:9000/out/topn-out/";
         // 输入路径
         FileInputFormat.addInputPath(job, new Path(args_0));
         // 输出路径
